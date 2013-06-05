@@ -1,0 +1,32 @@
+### Who we are
+
+There are three of us.
+
+We have over 40 years cumulative experience in software engineering, systems architecture and administration.
+
+We have experience managing everything from single servers to complex web-scale architectures
+
+We are an AWS Partner (what's AWS?)
+
+### What we do
+
+Build your infrastructure - We can design and build systems to match your requirements 
+
+Monitor your infrastructure - Using operating system level tools and metrics to keep your infrastructure healthy and available.
+
+Monitor your application - employing the latest and greatest appliction performance monitoring tools to make sure you're systems are reponsive and you're end users are happy.
+
+Migrate your infrastructure/application to the cloud - moving your system to the cloud enabling you to save money and time.
+
+Back up your system - Helping you maintain a solid backup strategy that complies with your particulary requiremest as well as helping you ensure that your system is available and, should the worst happen, recoverable.
+
+Automate your test and deployment - Helping you find ways to automate your test and deployment procedures by utilizing Agile, Devops methods to create stable systems that can be replicated in multiple environments for development, testing, staging and production.
+
+
+
+
+###  Who we've done it for
+
+Gamesko (Gambino Poker) -  http://www.gamesko.com/  https://apps.facebook.com/gambinopoker/
+
+Hotfoot Design (Webhost) - http://www.hotfootdesign.co.uk
