@@ -316,15 +316,15 @@ sub {
 
 a {
   text-decoration: none;
-  color: #929a00; }
+  color: #666; }
   a:visited {
     color: #313400; }
   a:hover {
     text-decoration: underline;
-    color: #626700; }
+    color: #333; }
   a:focus {
     outline: thin dotted;
-    color: #010100; }
+    color: #333; }
   a:hover, a:active {
     outline: 0; }
 
