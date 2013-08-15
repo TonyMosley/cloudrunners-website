@@ -38,6 +38,9 @@ textarea {
 body {
   margin: 0; }
 
+a,a:visited {
+	color: #cca40a;
+}
 a:focus {
   outline: thin dotted; }
 
