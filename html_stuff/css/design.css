@@ -444,12 +444,12 @@ h2.logo a {
 
 
 .panel p {
-
-	font-size: 1.1rem;
+	font-size: 14px;
+	font-size: 1.2rem;
 	line-height: 120%;
-	margin-left: 20px;
-	margin-right: 20px;
+
 }
+
 
 .ease {
 	transform: translate(all)
@@ -583,6 +583,12 @@ h2.logo a {
 	float: left;
 	width: 27%;
 	padding: 3%;
+}
+
+#panel-what p {
+
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .border-right {
