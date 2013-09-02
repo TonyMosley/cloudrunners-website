@@ -44,13 +44,19 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 <!-- JavaScript -->
 <script src='js/vendor/modernizr-2.6.2-min.js'></script>
-
+<script type="text/javascript" src="js/vendor/jquery-1.8.3-min.js"></script>
 <link rel="shortcut icon" href="img/favicon.ico">
 <link rel="shortcut icon" href="img/favicon.png">
 
 <!-- Windows 8 / RT -->
 <meta name="msapplication-TileImage" content="img/h/apple-touch-icon-144x144-precomposed.png">
 <meta name="msapplication-TileColor" content="#000">
+
+<link type="text/css" href="css/skitter.styles.css" media="all" rel="stylesheet" />
+
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+
 </head>
 
 <body>
@@ -59,44 +65,82 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 <header role="page-header">
 <h2 class="logo"><a href="#" title="Cloud Runners">Cloud Runners</a></h2>
-
+<h2 class="telephone" style="display:none;">Call us today on 0845 111222</h2>
+<h2 class="email">Email: info AT cloudrunners.co.uk</h2>
 <nav id="navigation" role="navigation" data-0="position:static;" data-top-top="position:fixed;top:0;" data-edge-strategy="set">
 	<ul>
 		<li id="link-panel-what"><a href="#panel-what" class="scroll">What We Do</a></li>
 		<li id="link-panel-who"><a href="#panel-who" class="scroll">Who We Are</a></li>	
-		<li id="link-panel-clients"><a href="#panel-clients" class="scroll">Our Clients</a></li>
+		<li id="link-panel-clients"><a href="#panel-clients" data-menu-top="500" class="scroll">Our Clients</a></li>
 	</ul>
 </nav>
 
 </header>
+
+
 <div class="container">
+<div id="slideshow">
 
+					        
+	<div class="hero-a" style="display: block;">
 
+		<div class="title">
+
+			
+					<h1>Cloud Infrastructure</h1>
+					<h2>Design, Build, Support</h2>
+<h3>Cloud Runners can help you build or move your applications and services to the cloud and manage and support you in production.</h3>
+
+			<h5 class="white"><span class="orange">Dependable</span> &gt; Experienced &gt; Business foucessed</h5>
+
+		</div>
+
+	</div>
+</div>
 
 
 <div id="panel-what" class="panel" data-anchor-target="#link-panel-what">
 	<section>
-		<h2><span>What we do</span></h2>
-		<p>
-	     Founded in 2012, Cloud Runners Ltd was established in Lancaster, UK, to provide infrastructure design and management services to companies, who, wish to make the most of the flexibility, scalability and automation that modern cloud hosting can provide, but would also like support and help to get them there.</p>
-		 <p><a href="#modal-intro" class="moe" title="Clicking this link shows my profile">read more...</a></p>
-	  
+
+		<p style="font-size:130%;">
+			Founded in 2012 and incorporated in early 2013 we are a technology start-up based out of historic Lancaster in the North West of England. We provide quality, professional, technology led web and mobile solutions built around purposed infrastructure and bespoke software development. We will work with your team and your business goals to design, build, and support the infrastructure and applications that drive your business.</p>
+
+		<p style="font-size:110%;">Our core business is the design and support of application infrastructure using infrastructure as a service providers (IaaS) (for example, Amazon AWS, Rackspace Cloud, Rightscale) and platform as a service (Paas) (for example CloudBees, EngineYard). We are also equipped to take on full application development for web, mobile web and mobile applications. </p>
+
+		<p style="font-size:110%;">We are business focussed, approachable techies; we will work with you to get results and support you through the full lifecycle of your applications and services. If you are have a new project about to start or want to migrate existing services to cloud hosting, please get in touch.</p>
+
+
 		<ul>
 		<li class="border-right"><i class="ss-share skill-icon"></i><h3>Design and build.</h3>
-		<p>We can design and build systems infrastructure alongside your application and the whole stack if required.</p><p>more...</p></li>
+		<p>We can design and build systems infrastructure alongside your application and the whole stack if required.</p></li>
 		<li class="border-right"><i class="ss-view skill-icon"></i><h3>Monitor your infrastructure</h3><p>Using operating system level tools and metrics to help keep your infrastructure healthy and available.</p></li>
-		<li><i class="ss-barchart skill-icon"></i><h3>Monitor your application</h3><p>employing the latest and greatest application performance monitoring tools to make sure you're systems are responsive and youe end users are happy.</p></li>
+		<li><i class="ss-barchart skill-icon"></i><h3>Monitor your application</h3><p>Employing the latest and greatest application performance monitoring tools to make sure your systems are responsive and your end users are happy.</p></li>
 		<li class="border-right border-top"><i class="ss-uploadcloud skill-icon"></i><h3>Migrate your infrastructure or application to the cloud</h3><p>moving your system to the cloud enabling you to save money and time.</p></li>
 		<li class="border-right border-top"><i class="ss-database skill-icon"></i><h3>Back up your system</h3><p>Helping you maintain a solid backup strategy that complies with your particular requirements as well as helping you ensure that your system is available and, should the worst happen, recoverable.</p></li>
-		<li class="border-top"><i class="ss-merge skill-icon"></i><h3>Automate your test and deployment</h3><p>Helping you find ways to automate your test and deployment procedures by utilizing Agile, Develops methods to create stable systems that can be replicated in multiple environments for development, testing, staging and production.</p></li>
+		<li class="border-top"><i class="ss-merge skill-icon"></i><h3>Automate your test and deployment</h3><p>Helping you find ways to automate your test and deployment procedures to create stable systems that can be replicated in multiple environments for development, testing, staging and production.</p></li>
 		</ul>
+
+		<p>We have a multi-disciplinary team with commercial experience in many areas including:</p>
+
+		<ul class="key-skills">
+
+		<li class="border-right"><h3>Linux server administration</h3><p>Ubuntu, Centos/RedHat, Amazon Linux</p></li>
+		<li class="border-right"><h3>Infrastructure as a service</h3><p>Amazon Web Services (AWS), Rightscale</p></li>
+		<li><h3>Platform as a Service</h3><p>For example, CloudBees, OpenShift</p></li>
+		<li class="border-right border-top"><h3>Servers and Middleware</h3><p>LAMP, MySQL and MongoDB, RabbitMQ</p></li>
+		<li class="border-right border-top"><h3>Web and Mobile application development</h3><p>PHP 5, Java (EE, Spring, Playframework), HTML, Javascript, CSS</p></li>
+		<li class="border-top"><h3>Infrastructure deployment and automation</h3><p>VirtualBox, VMWare, Shell scripting, Chef, Vagrant</p></li>
+		</ul>
+	
+
+
+
 	</section>
 </div><!-- /#panel-what -->
 
 
 <div id="panel-who" class="panel" data-anchor-target="#link-panel-who">
 	<section>
-		<h2><span>Team</h2>
 		
 		<div class="left-block">
 			<p>There are <span>3</span> senior consultants</p>
@@ -121,8 +165,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 <div id="panel-clients" class="panel" data-anchor-target="#link-panel-clients">
 	<section>
-		
-		<h2><span>Who we&rsquo;ve done it for</span></h2>
+
 		<p><strong>Gamesko (Gambino Poker)</strong> - <a href="http://www.gamesko.com/" title="">http://www.gamesko.com/</a> &amp; <a href="https://apps.facebook.com/gambinopoker/" title="">https://apps.facebook.com/gambinopoker/</a></p>
 		<p><strong>Hotfoot Design (Webhost)</strong> - <a href="http://www.hotfootdesign.co.uk" title="">http://www.hotfootdesign.co.uk</a></p>
 		<p><strong>Moshen (Mobile App Developers)</strong> - <a href="http://www.moshen.com" title="">http://www.moshen.com</a></p>
@@ -231,8 +274,6 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 			
 			<div class="profile-text">
 			<i class="ss-quote"></i>
-			<p>After a life as a petty criminal brought little reward, the young Cary Jr. set off to the golden skies of the United Kingdom.</p>
-			<p>He was soon to fall foul of the law again and end up sharing a cell with his wife to be and two small rodents</p>
 			<i class="ss-unquote"></i>
 			</div>
 			
@@ -242,29 +283,10 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 </section>
 
 
-<script type="text/javascript" src="js/skrollr.min.js"></script>
-<script type="text/javascript" src="js/vendor/jquery-1.8.3-min.js"></script>
+
 <script type="text/javascript" src="js/modal.js"></script>
 
-<!--[if lt IE 9]>
-<script type="text/javascript" src="/js/skrollr.ie.min.js"></script>
-<![endif]-->
 
-<script type="text/javascript">
-	var s = skrollr.init({
-		forceHeight: false
-	});
-	skrollr.menu.init(s);
-</script>
-
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-$(".scroll").click(function(event){
-event.preventDefault();
-$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
-});
-});
-</script>
 
 <style type="text/css">body { display: none; }</style>
 
@@ -272,5 +294,6 @@ $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
         if(window == window.top) document.body.style.display = "block";
         else window.top.location = window.location;
       </script>
+
 
 </html>

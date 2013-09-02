@@ -248,7 +248,7 @@ html {
 
 body {
 	position: relative;
-	background: url('../images/wave-bg.png') repeat 0 0 #fff;
+	/*background: url('../images/wave-bg.png') repeat 0 0 #fff;*/
 	/*background: rgb(223,228,182);
 	background: #fafafa;
 	
@@ -319,7 +319,7 @@ h2.logo {
 	/*background: url('../images/CloudRunners-logo-gradient.svg') no-repeat 0 2em;*/
 	/*background: url('../images/CloudRunners-logo-black.svg') no-repeat 0 2em;*/
 	background: url('../images/CloudRunners-logo-notworse.svg') no-repeat 0 2em;
-	
+	float:left;
 	background-size: contain;
 	width: 150px;
 	height: 150px;
@@ -333,6 +333,28 @@ h2.logo a {
 	width: 150px;
 	height: 150px;
 	text-indent: -9999px;
+}
+
+h2.telephone{
+
+	float:right;
+	background-size: contain;
+	width: 200px;
+	height: 150px;
+	height: auto;
+	margin: 0 auto 2em;
+	padding-top: 8em;
+}
+
+h2.email{
+
+	float:right;
+	background-size: contain;
+	width: 300px;
+	height: 150px;
+	height: auto;
+	margin: 0 auto 2em;
+	padding-top: 8em;
 }
 
 
@@ -593,6 +615,99 @@ h2.logo a {
 	margin-left: 20px;
 	margin-right: 20px;
 }
+#slideshow
+{
+	position:relative;
+	width: 920px;
+	height:270px;
+	overflow:hidden;
+	display:block;
+	margin:0 0px;
+}
+
+#slideshow > div 
+{ 
+	position:absolute; 
+	top:0px; 
+	left:0px; 
+}
+
+
+.title
+{
+	background-color:#4a4c4c;
+	height:270px;
+	width:950px;
+	float:left;
+}
+
+.title h1
+{
+	font-size:80px;
+
+	color:#ffffff;
+	margin: 0px 0 0 70px;
+}
+
+.title h2
+{
+	font-size:40px;
+
+	color:#0FDB8D;
+	margin: 0px 74px 0 74px;
+	font-weight:400;
+}
+
+.title h3
+{
+	font-size:18px;
+	font-family:'rockwell', 'Rokkitt', serif;
+	color:#FFFFFF;
+	margin: 10px 74px 0 74px;
+	font-weight:400;
+}
+
+.title p
+{
+	font-size:20px;
+	font-family:'minion pro';
+	font-style:italic;
+	color:#ffffff;
+	margin: 17px 0 0 744x;
+}
+
+.title h5
+{
+	font-size:14px;
+	font-family:'rockwell', 'Rokkitt', serif;
+	color:#face1d;
+	margin: 15px 50px 0 0;
+	float:right;
+	display:none;
+}
+
+.title a
+{
+	text-decoration:none;
+	font-size:14px;
+	font-family:'rockwell', 'Rokkitt', serif;
+	color:#face1d;
+	float:right;
+	display:block;
+}
+
+.title a:hover
+{
+	color:#000000;
+	background-color:#ffffff;
+	display:block;
+	-webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+
 
 .border-right {
 	border-right: 1px solid #ccc;
@@ -628,6 +743,32 @@ i.ss-barchart {color:#12980a;}
 i.ss-uploadcloud {color:#d98116;}
 i.ss-database {color:#f4e10a;}
 i.ss-merge {color:#b523e1;}
+
+#panel-what .key-skills ul {
+	
+	margin: 0;
+	padding: 1.2em .6em 0;
+}
+
+#panel-what .key-skills ul li {
+	float: left;
+	width: 27%;
+	padding: 3%;
+}
+
+#panel-what .key-skills ul li h3 {
+	font-size: 1.4em;
+	line-height: 110%;
+	font-weight: 700;
+	margin: 0 0 .8em;
+	text-align: center;
+}
+
+#panel-what .key-skills ul li p {
+	padding: 0;
+	font-size: .6em;
+}
+
 
 
 /* Panel 'CLIENTS' */
